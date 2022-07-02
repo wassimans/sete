@@ -1,17 +1,8 @@
-# sete-chain
- A simple PoW blockchain implemented in Nodejs and named after my hometown Sète.
+# Setechain
+ A very simple Ethereum implementation in Rust, named after the town where I live: Sète.
 
  # Step by step
- ## Creating the Block
-
- A Block is a class that represents a data structure containing the following:
-
- - Timestamp in milliseconds
- - lastHash: the hash of the block before
- - hash: based on this block's data
- - the data the block stores
-
- The class also contains:
- - a static method to generate the genesis block
- - a static method to mine a new block based on the previous block's hash and given new data
- - a static method to produce the new block's hash (using the SHA-256 algorithm and based on the crypto-js package)
+ ## Building the Smart Contract pseudo language
+ ## Building the Blockchain: the core
+ ## Building the Blockchain: the network
+ ## Implementing the transaction system
